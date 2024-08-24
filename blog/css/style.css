@@ -1,0 +1,175 @@
+.roboto-regular {
+  font-family: "Roboto", system-ui;
+  font-weight: 300;
+  font-style: normal;
+}
+
+* {
+	padding:0;
+	margin:0;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	text-decoration: none;
+	font-family:  "Roboto";
+}
+
+header {
+	padding: 20px;
+	background-color: #f4f4f4;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid #999999;
+}
+
+header ul {
+	list-style: none;
+	align-content: center;
+	
+}
+
+header ul li {
+	display: inline;
+	margin: 0 5px;
+	padding: 5px;
+}
+
+ul a {
+	color: #333;
+}
+
+ul a:hover {
+	font-weight: 800;
+	color: #777;
+}
+
+.login {
+	padding: 10px 15px;
+	border: none;
+	background-color: #444;
+	color: white;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.login:hover {
+	background-color: #222;
+	font-weight: 800;
+}
+
+section {
+	width: 70%;
+	max-width: 600px;
+	min-width: 350px;
+	padding: 20px;
+	background-color: #ffffff;
+	margin: 0px auto;
+}
+
+article {
+	width: 100%;
+	margin-top: 25px;
+	border-bottom: 1px dashed #666;
+}
+
+article:last-of-type {
+	border-bottom: none;
+	margin-bottom: 65px;
+}
+article h2 {
+	display: inline;
+}
+
+article p {
+	padding: 10px;
+	line-height: 1.6;
+	text-align: justify;
+}
+
+article a {
+	display: block;
+	padding: 10px 0px;
+}
+
+article a:active{
+	color: blue;
+}
+
+article a:hover{
+	font-size: 1.05em;
+}
+
+article a:visited{
+	color: blue;
+}
+
+small {
+	padding: 5px 0;
+	display: block;
+	color: #777;
+}
+
+/* Contact Page */
+
+label {
+	display: block;
+	padding: 5px;
+}
+
+form {
+	background-color: #f1f1f1;
+	padding: 40px;
+	border-radius: 5px;
+	margin: 25px 0;
+}
+
+input[type="text"], input[type="email"] {
+	width: 100%;
+	border: none;
+	background-color: #fff;
+	padding: 3px 5px;
+	border-radius: 5px;
+	height: 35px;
+	outline: none;
+}
+
+textarea {
+	width: 100%;
+	border: none;
+	background-color: #fff;
+	padding: 5px;
+	border-radius: 5px;
+	outline: none;
+	resize: none;
+}
+ 
+button[type="submit"] {
+	border: none;
+	background-color: #444;
+	color: white;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+button[type="submit"]:hover {
+	background-color: #222;
+	font-weight: 800;
+}
+
+/* FOOTER */
+footer {
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+	border-top: 1px solid #999999;
+	position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #f1f1f1;
+}
+
+footer p {
+	color: #888;
+}
